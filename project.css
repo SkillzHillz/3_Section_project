@@ -1,0 +1,136 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image_container{
+    display: flex;
+    padding: 10px 3px 0px 0px;
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkkhaki;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li{
+    padding: 10px 15px 0px 15px;
+}
+div ul.list a{
+    text-decoration: none;
+    color: darkslategray;
+}
+h2{
+    padding: 5px  5px 0px 0px;
+    font-size: 40px;
+    font-style: italic;
+    color: darkslategrey;
+}
+.button_container{
+    padding-top: 10px;
+}
+button.log_in{
+    background-color: rgba(255, 140, 0, 0.664);
+    padding: 7px 10px 7px 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+section{
+    display: flex;
+}
+.text_1{
+    margin-left: 100px;
+}
+h1{
+    font-size: xx-large;
+    color: grey;
+}
+.card_image{
+    margin-left: 60px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+span{
+    font-style: italic;
+    color: darkslategrey;
+    font-size: larger;
+}
+button.card_button{
+    padding: 7px 8px 7px 8px;
+    margin-left: 60px;
+    background-color: grey;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.card{
+    background-color: rgba(210, 105, 30, 0.877);
+    width: 30%;
+    height: 60%;
+    margin-left: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px  black;
+}
+h3{
+    font-size: xx-large;
+    color: darkslategray;
+    margin-left: 7px;
+}
+p{
+    margin-left: 4px;
+    color: darkslategrey;
+}
+.section_2{
+    padding: 80px 30px 0px 0px;
+    margin-left: 100px;
+}
+#name{
+    margin: 0px 0px 15px 0px;
+    padding: 10px 10px 10px 10px;
+}
+#email{
+    margin: 15px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+#address{
+    margin: 30px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+#date_of_birth{
+    margin: 30px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+#male{
+    margin: 15px 0px 0px 0px;
+}
+#female{
+    margin: 15px 0px 0px 0px;
+}
+button.sign_up{
+    background-color: rgba(0, 0, 0, 0.678);
+    font-size:small;
+    color: wheat;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 80px;
+    padding: 6px 9px 6px 9px;
+    cursor: pointer;
+}
+footer{
+    margin-top: 100px;
+    background-color: darkkhaki;
+}
